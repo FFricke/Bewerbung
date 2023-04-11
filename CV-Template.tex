@@ -1,0 +1,189 @@
+\documentclass[10pt, a4paper]{article}
+
+\input{cv-themes/theme_selection.tex}
+
+%----------------------------------------------------------------------------------------
+%	 THEMES
+%----------------------------------------------------------------------------------------
+
+% Define the desired theme out of the following: beige, blue, bw, coral, earth, framed, gray, minimal, onyx, plain
+% See screenshots in preview/ directory
+\theme{onyx}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need a particular field, just remove the content leaving the command, e.g. \aboutdesc{}
+
+\name{Fabian Fricke} % Your name
+\jobtitle{Archäologe} % Job title/career
+\profilepic{Fabian.jpg} % Profile picture (supported only with "bw", "gray" and "framed" themes)
+\aboutdesc{Ich bin ein technologiebegeisterter Archäologe an der Schnittstelle von Informatik, Naturwissenschaften, Statistik und Archäologie.} % Description for ABOUT ME section
+\location{Berlin, Deutschland} % Address/location
+\phone{+4915167502424} % Phone number
+\mail{fabianfricke@gmx.net} % Mail
+\dateofbirth{18. April 1992} % Date of birth
+\drivinglicenses{Kategorie B} % Drivers license category
+\linkedin{\href{https://archmetal.shinyapps.io/Metal/}{archmetal.shinyapps.io}} % \linkedin{\href{LINK}{DESCRIPTION}}
+\github{\href{github.com/FFricke}{github.com/FFricke}} % \github{\href{{LINK}{DESCRIPTION}}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Both proskills and perskills can be used separately or together. If you do not plan to use professional and personal skill charts, just remove the content leaving the command, e.g. \perskills{} or \proskills{}
+
+% Define professional skills (values are from interval [0,1])
+\proskills{{SQL-PostgreSQL/0.75}, {R/0.75}, {CQL/0.5}, {QGIS/0.45}, {Latex/0.35}, {Markdown/0.25}, {Bash/0.25}, {Docker/0.25}}
+%\proskills{}
+
+% Define personal skills (values are from interval [0,1])
+\perskills{{Kommunikationsfähigkeit/0.8},{Team Work/0.7}}
+%\perskills{}
+
+% Define language skills (values are from interval [0,5). If you do not plan to use the language skills chart, just remove the content leaving the command, e.g. \langskills{}
+% Language skill circles are designed to be included into the sidebar
+\langskills{{Deutsch/5},{Englisch/4}, {Russisch/4}}
+%\langskills{}
+
+\begin{document}
+
+\makeprofile % Print name & job description. Also prints out profile picture if it's supported by the theme
+
+\begincols
+
+%----------------------------------------------------------------------------------------
+%	 SIDEBAR
+%----------------------------------------------------------------------------------------
+% Use \subsection inside the sidebar
+
+% Print defined contact information
+% \makecontact{NAME FOR CONTACT SECTION}
+\makecontact{CONTACT}
+
+% \makedob{NAME FOR DATE OF BIRTH SECTION}
+\makedob{DATE OF BIRTH}
+
+% \makelicense{NAME FOR ABOUT ME SECTION}
+\makeabout{ÜBER MICH}
+
+% \makelicense{NAME FOR DRIVING LICENSE SECTION}
+\makelicense{FÜHRERSCHEIN}
+
+\subsection{SRACHEN}
+\langcircles % Command for drawing language skill circles
+
+\subsection{PERSÖNLICH}
+\perskills % Command for drawing personal skill bars.
+
+\subsection{PROFESSIONELL}
+\proskills % Command for drawing professional skill bars.
+
+\subsection{STIPENDIEN}
+
+Stipendium der Föderalen Uraluniversität Ekaterinburg für internationale Studierende (SoSe 2016)\\
+
+PROMOS-Forschungsstipendium (DAAD) im Rahmen eines Forschungsaufenthalts an der Föderalen Uraluniversität Ekaterinburg. (15.02.2016 – 15.06.2016) \\
+
+Stipendiat im 1. und 2. Jahrgang des Deutschland Stipendiums an der Goethe Universität Frankfurt (01.10.2011 – 30.09.2013)
+
+\subsection{ENGAGEMENT}
+
+Mitglied der Fachschaft der Vor- und Frühgeschichte und der Fachschaftsgruppe „Feder und Spaten“
+
+\begin{itemize}
+	\item Studentischer Vertreter im Direktorium des Instituts für Archäologische Wissenschaften, im Abteilungsgremium der Vor- und Frühgeschichte und bei Akkreditierungen.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 BODY
+%----------------------------------------------------------------------------------------
+% Use \section inside the body
+\switchcols % This command is used to switch to the document body
+
+\section{BERUFLICHE ERFAHRUNG}
+
+% \begin{cvitem}{Job title}{Company name}{Location}{Duration}
+% Job description
+% \end{cvitem}
+% To add bullets inside the job description:
+% \begin{cvitem}{Job title}{Company name}{Location}{Duration}
+%   \begin{itemize}
+%       \item
+%   \end{itemize}
+% \end{cvitem}
+
+\begin{cvitem}{Archäologe}{Eurasien-Abteilung des DAI}{Berlin}{09.2019 - 08.2023}
+Erstellung einer Dissertation zum Thema „Arsenbronze des 4. und 3. Jahrtausends v.Chr. im Kaukasus“
+
+\end{cvitem}
+
+\begin{cvitem}{Grabungstechniker}{Archäograph GbR}{Klein Auheim}{04.2019 - 08.2019}
+	Durchführung und Bearbeitung archäologischer Grabungen im wissenschaftlichen und baubegleitenden Sektor.
+	
+\end{cvitem}
+
+\begin{cvitem}{Wissenschaftliche Hilfskraft}{Goethe Universität, Römisch-Germanische Kommission}{Frankfurt/Main}{2011 - 2018}
+	Tätigkeit als wissenschaftliche Hilfskraft in verschiedenen Projekten und Aufgabenbereichen am Institut für archäologische Wissenschaften, am Institut für Geowissenschaften und an der Römisch-Germanischen Kommission des DAI.
+	\begin{itemize}
+		\item Wissenschaftliche Hilfskraft am Lehrstuhl von Prof. Dr. R. Krause (12/2018 – 03/2019)
+		\item LOEWE-Projekt „Prähistorische Konfliktforschung – Burgen der Bronzezeit zwischen Taunus und Karpaten“ (15.05.18 – 30.11.18)
+		\item Tutor im Tutorium zum Proseminar „Einführung in die vor- und frühgeschichtliche Archäologie“ und zum zum „Propaedeuticum Archaeologicum II“ im Bachelorstudiengang „Vor- und Frühgeschichte“ (WiSe 2015/16 - WiSe 2014/15)
+		\item DFG-Projekt „Zur Metallurgie der
+		bronzezeitlichen Artefakte des Fundplatzes Shajtanska
+		(nördlich von Ekaterinburg) vom Typ Sejma-Turbino in
+		Eurasien“ (16.06.2015 – 15.11.2015)
+		\item Institut für Geowissenschaften, AG
+		Mineralogie zur Aufbereitung des Probenmaterials vom Fundplatz Shaitanskoe Ozero II (16.02.2015 – 30.04.2015)
+		\item Vor- und frühgeschichtlichen Lehrsammlung der Goethe Universität (01.04.2013 – 30.06.2013; 01.10.2013 – 31.12.2013)
+		\item Digitalisierung des Fundkataloges der Zentralfläche des keltischen Oppidums Manching an der Römisch-Germanischen Kommission des DAI (15.11.2011 – 31.12.2011; 02.04.2012 – 29.06.2012)
+	\end{itemize}
+	
+\end{cvitem}
+
+
+
+\section{AUSBILDUNG}
+
+% \begin{cvitem}{Education level}{College/High school}{Location}{Duration}
+% Description
+% \end{cvitem}
+
+\begin{cvitem}{Master of Arts in Vor- und Frühgeschichtlicher Archäologie }{Goethe-Universität} {Frankfurt/Main}{12/2017}
+	Titel der Masterarbeit: The Metallurgy of the Sejma-Turbino-Phenomenon
+\end{cvitem}
+
+\begin{cvitem}{Auslandssemester }{Föderale Uraluniversität} {Jekaterinburg}{02/2016 – 08/2017}
+	Auslandssemester und Forschungsaufenthalt  mit parallelem Besuch des „Zentrums für Russisch als Fremdsprache“.
+\end{cvitem}
+
+\begin{cvitem}{Bachelor of Arts in Vor- und Frühgeschichte}{Goethe-Universität} {Frankfurt/Main}{03/2016}
+	Titel der Bachelorarbeit: Das Sejma-Turbino-Phenomenon am Beispiel des Fundplatzes Shaitanskoe Ozero II
+\end{cvitem}
+
+\begin{cvitem}{Abitur}{Albert-Schweitzer Schule} {Alsfeld}{2011}
+\end{cvitem}
+
+
+\section{PROJEKTE}
+
+% \begin{projitem}{Project name}{\href{link}{link description}}
+% Project description
+% \end{projitem}
+
+\begin{projitem}{Archmetal}{\href{https://archmetal.shinyapps.io/Metal/}{Link}}
+    Ein einfaches Shiny-basiertes Webtool zur explorativen Bearbeitung der Metallanalysedaten im Rahmen meiner Dissertation.
+\end{projitem}
+
+\section{PUBLIKATIONEN}
+
+\begin{itemize}
+	\item F. Fricke, Ein Alpiner Typ, In: C. Trümpler, Ich sehe wunderbare Dinge – 100 Jahre Sammlungen der Goethe Universität (Frankfurt 2015).
+	\item F. Fricke/R. Krause, Holzkästen am Hang? - Ausgrabungen in der äußeren Befestigung des Ipfs, AAusgrBadWürt 2018.
+	\item F. Fricke/R. Krause, Early tin-metallurgy in Eurasia – Sintashta-Petrovka and Seima-Turbino, In: N. L. Morgunova, Materials of the conference “Phenomena of the cultures of the Eneolithic – the Early bronze age of a steppe and forest-steppe of Eurasia: ways of the cultural interaction in the V-III millennium BC” (Orenburg 2019).
+\end{itemize}
+
+
+\fincols
+\end{document}

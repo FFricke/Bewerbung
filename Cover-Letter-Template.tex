@@ -1,0 +1,69 @@
+\documentclass[10pt, a4paper]{article}
+
+\input{cover-letter-themes/theme_selection}
+
+%----------------------------------------------------------------------------------------
+%	 THEMES
+%----------------------------------------------------------------------------------------
+
+% Define the desired theme out of the following: beige, blue, bw, coral, earth, framed, gray, minimal, onyx, plain
+% See screenshots in preview/ directory
+\theme{onyx}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need a particular field, just remove the content leaving the command, e.g. \jobtitle{}
+
+\name{Fabian Fricke} % Your name
+\jobtitle{Archäologe} % Job title/career
+\location{Berlin} % Address/location
+\phone{+4915167502424} % Phone number
+\mail{fabianfricke@gmx.net} % Mail
+\employerinfo{Marion Buschke \\
+Deutsches Archäologisches Institut \\
+Podbielskiallee 69-71 \\
+14195 Berlin \\
+Kennziffer: 68/2022} % Contact information of the employer. Make sure to end every row with "\\"
+
+\begin{document}
+
+\makeprofile % Print name & job description
+
+\makecontact % Print defined contact information
+
+\today % Command for inserting today's date.
+
+\letterspace % Command for adding larger vertical space
+\makeemployerinfo % Print employer contact information
+
+Sehr geehrte Frau Buschke,
+
+mit großem Interesse habe ich die von Ihnen veröffentlichte Stellenausschreibung für die zentrale Koordination der Softwaretechnik in NFDI4Objects gelesen. Da ich gegenwärtig, für die Zeit nach dem Abschluss meines Promotionsverfahrens, eine Anstsellung suche und meine fachlichen Kenntnisse und Interessen ihrem ihrem Anforderungsprofil in meinen Augen entsprechen, übersende ich Ihnen hiermit meine Bewerbungsunterlagen.
+
+Meine eigene Forschungsarbeit ist von Beginn an von den Anwendung verschiedener IT-Methoden geprägt. Im Rahmen meiner Bachelor- und Masterarbeit habe ich mich, im einem von der DFG geförderten Forschungsvorhabens, mit der Metallurgie des Sejma-Turbino-Phänomens im Norden Eurasiens beschäftigt. Als Basis zur Auswertung der gesammelten Daten habe ich eigentständig eine PostgreSQL-Datenbank entwickelt und die Auswertung der typologischen und archäometallurgischen Daten vorgenommen. Die Datenmenge in diesem Projekt noch relativ überschaubar war. Es handelte sich um einige Hundert Artefakte, Spurenelement- und Pb-Isotopen-Analysen von 142 Fundplätzen. Die Bearbeitung eines solchen Datenbestands mit „herkömmlichen“ Methoden schon nur noch schwer möglich. Die statistische Auswertung dieser Daten erfolgte damals in der kommerziellen und proprietären Software SPSS. Zum Zweck des Layoutings meiner Masterarbeit haben ich in dieser Zeit die Grundlagen von Latex erlernt. Auch dieses Bewerbungsschreiben wurde in Latex erstellt. Die Codegrundlage finden Sie auf meinem Github-Account.
+
+Nach meinem Wechsel an die Eurasien-Abteilung des DAI habe ich im Rahmen des ERC-Projekts ARCHCAUCASUS die Erforschung der Arsenbronzen des vierten und dritten Jahrtausends im Kaukasus aufgenommen. Mein Fokus liegt dabei besonders auf der Untersuchung dieser Metalllegierungen als technische Innovation, d.h. der Bestimmung der Technologien, die zu deren Herstellung genutzt wurden. Diese Frage ist komplex, da Arsen auch natürlich in Kupfererzen vorkommen kann. Im Fall der Verhüttung solcher Erze ist die Herstellung natürlicher Kupferarsenlegierungen möglich. Um dieser Schwierigkeit zu begegnen habe ich vom Anfang des Projektes an einen quantitativen Ansatz verfolgt. Insgesamt liegen in der Datenbank zu diesem Zeitpunkt einige Tausend Spurenelementanalysen und Artefakten aus 565 Fundplätzen vor. Ergänzt werden diese Daten zusätzlich noch durch eine geringe Zahl von metallographischen- und Pb-Isotopenanalysen. 
+
+Die gegenüber der Masterarbeit gestiegene Komplexität Rechnung zu tragen, habe ich mich zu diesem Zeitpunkt entschlossen die Grundlagen von R zu erlernen. Mit wachsendem Kenntnisstand wuchs dabei der Einfluss der mit R verbundenen Methoden auf meine Arbeit. Zunächst habe ich eine für meine Anwendungen maßgeschneiderte kleine Diagramm-Bibliothek erstellt, die den explorativen Teil der Datenanalyse schon erheblich beschleunigt und vereinfacht hat. Zudem habe ich die Ästhetik der Diagramme standardisiert und so z.B. die einheitliche Darstellung garantiert. Der letzte Schritt in dieser Entwicklung war die Programmierung einer eigenen shiny-basierten UI, um wiederum die explorative Arbeit mit den Daten weiter zu beschleunigen. Den Link zu diesem Webtool finden Sie im CV unter „Projekte“. Den Quellcode finden Sie auf meinem Github-Account unter „App“ Außerdem sind auch komplexere Verfahren wie Hauptkomponenten- Korrospondez- und Clusteranalysen ein fester Teil meiner Arbeit. Die Arbeiten am Text der Dissertation, die aus diesem Forschungsvorhaben hervorgehen soll, ist zu ca. 50\% abgeschlossen und die verwandten Methoden werden darin eine wichtige Rolle spielen. Ich plane zum Ende meiner bisherigen Anstellung am 31.08.2023 den Abschluss der Arbeiten am Text der Dissertation und bis zum Ende 2023 den Abschluss der Promotionsverfahrens selbst.
+
+Mit diesen ersten Versuchen in Programmierung ist bei mir der Aufbau einer privaten IT-Infrastruktur einher gegangen. Zum einen betreibe ich einen auf markdown basierenden Zettelkasten nach Luhmann, in dem alle meine wissenschaftlichen Texte eingeordnet und miteinander verbunden werden. Zum anderen betreibe ich einen privaten Nextcloud-Server auf Basis eines mit DynDNS zugänglich gemachten Raspberry Pi 4. Auf Basis dieses Servers funktioniert mit privates Projektmanagment mit Hilfe einiger Nextcloud-Apps (hauptsächlich Tasks, Deck, Calendar). Als theoretische Grundlage dient mit dabei vor allem das Getting-Things-Done System nach David Allen. In der Praxis bestehen große Ähnlichkeiten zwischen dieser Art von individuellen Projektmanagment und Ticketsystemen, wie sie in der IT-Branche verbreitet sind.
+
+Im Rahmen der Mitarbeit in internationalen Projekten hatte ich die Gelegenheit an wissenschaftlichen Konferenzen in Deutschland, Russland und Georgien teilzunehmen. 2016 und 2017 konnte ich insgesamt drei Semester in Jekaterinburg an der Föderalen Ural Universität verbringen.
+
+Meine Erfahrungen in der Lehre beschränken sich bisher auf drei Semester als Tutor an der Universität Frankfurt. Hierbei oblag mir die selbstständige Durchführung zweier verpflichtender Tutorien für Studienanfänger im Fach Vor- und Frühgeschichte. Diese Aufgabe hat mich stets erfüllt und ich kann mir die Durchführung von Fortbildungsmaßnahmen zu IT-Fragen im Rahmen von NFDI4Objects sehr gut vorstellen.
+
+Mit den komplexen Aufgaben, die mit der Verwaltung innerhalb des DAI verbunden sind, konnte ich im Rahmen meiner Anstellung an der Eurasien-Abteilung Erfahrungen sammeln. Dies war u.a. mit der Beschaffung technischer Geräte und Dienstreise- und Grabungsabrechungen verbunden.
+
+Zusammenfassend würde ich mich als technik-, insbesondere free-and-open-source, begeisterten Archäologen bezeichnen. Ich habe im Rahmen der archäologischen Forschungsvorhaben im immer umfangreicheren Maße digitale Methoden und Infrastrukturen in meine Arbeit integriert. Durch diese enthusiastisch-autodidaktische Herangehensweise konnte ich mir umfangreiche Kenntnisse und Erfahrungen in der Nutzung von IT-spezifischen Wikis (z.B wiki.archlinux.org, wiki.debian.org, cran.r-project.org) und Foren (z.B. stackoverflow.co) ansammeln. Ich nutze seit ca. 2017 Linux (u.a. Ubuntu, Debian und Manjaro) als Betriebssystem für meinen Arbeits-PC und meine Home-Server und bin daher mit der Nutzung von Code-Repositorien gut vertraut, auch nutze ich selbst Git zur Versionskontrolle meiner eigenen R- und Latex-Scripte. Meine formell nachgewiesene IT-Ausbildung beschränkt sich auf einige Veranstaltungen während meinem Bachelor- und Masterstudium. Diese Arbeitsweise als enthusiastischer Autodidakt führte  zu einer sehr zielbasierten Herangehensweise, die die zügige Fertigstellung funktionierender Werkzeuge und deren kurzfristige Überarbeitung und Weiterentwicklung priorisiert. Damit steht meine bisherige Arbeitsweise den Grundkonzepten agiler Softwareentwicklung, wie sie im Agile Manifesto dargelegt wurden, sehr nahe.
+
+Ich würde mich sehr freuen diese Erfahrungen im eigenständigen Aufbau, Nutzung und Verbindung digitaler Infrastrukturen für spezifisch archäologische Bedürfnisse in NFDI4Objects einbringen zu können. Ich bin davon überzeugt, dass diese Methoden die Zukunft unseres Fachs formen werden. Die Entwicklung von Infrastrukturen, Workflows, deren Verschränkung und Integration in die alltägliche Arbeit eines Archäologen sind dabei Schlüsselfelder in denen NFDI4Objects die Entwicklung entscheidend voran bringen kann. Aus diesen Gründen würde ich mich freuen, wenn wir den Diskurs zu diesen Themen in einem Vorstellungsgespräch fortsetzen könnten.
+
+\letterspace
+Mit freundlichen Grüßen,
+
+\letterspace
+Fabian Fricke
+
+\end{document}
