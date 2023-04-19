@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023/Arch Linux)  (format=lualatex 2023.4.11)  11 APR 2023 18:08
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023/Arch Linux)  (format=lualatex 2023.4.11)  19 APR 2023 13:20
  restricted system commands enabled.
 **Cover-Letter-Template.tex
 (./Cover-Letter-Template.tex
@@ -1350,14 +1350,14 @@ Here is how much of LuaTeX's memory you used:
  1325 words of node memory still in use:
    30 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 1 glyph, 80 attribute, 62 glue_sp
 ec, 80 attribute_list, 2 write, 24 pdf_literal, 24 pdf_colorstack nodes
-   avail lists: 1:4,2:1035,3:300,4:123,5:1518,6:64,7:11641,8:3,9:478,10:16,11:75
-7
+   avail lists: 1:4,2:1047,3:297,4:125,5:1503,6:64,7:11478,8:3,9:479,10:17,11:75
+2
  57583 multiletter control sequences out of 65536+600000
  58 fonts using 5500231 bytes
- 105i,17n,101p,1420b,1088s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 105i,17n,101p,1428b,1088s stack positions out of 5000i,500n,10000p,200000b,80000s
 <./fonts/NunitoSans-Regular.ttf></usr/share/texmf-dist/fonts/opentype/public/fon
 tawesome5/FontAwesome5Free-Solid-900.otf><./fonts/Archivo-Regular.ttf>
-Output written on Cover-Letter-Template.pdf (2 pages, 34636 bytes).
+Output written on Cover-Letter-Template.pdf (2 pages, 34664 bytes).
 
 PDF statistics: 81 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
